@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *{padding:0; margin:0;}
+        html, body {
+        scroll-behavior: smooth;
+            font-family: Arial;
+        }
+        
+        nav{position: fixed; width: 100%; background: black;}
+        #menu{display: flex; max-width: 800px; margin: auto;}
+        #menu li{ margin:0; padding:0; list-style-type: none; line-height: 2em; flex: 33%;}
+        #menu li a{display: block;color: #ffffff; flex: 33%; text-align:center; text-decoration: none;}
+        #menu li a:hover{text-decoration: underline;}
+        
+        .pt50{padding-top: 50px;}
+        
+        section{margin: 0 15px 10px;}
+        
+        .portfolio-item{width: 33%; float: left;}
+        .portfolio-item img {width: 100%}
+        .clear-both{clear: both;}
+        
+        h2{line-height: 2.5em;}
+        h3{line-height: 2em;}
+    </style>
+   
+</head>
+<body>
+  <nav>
+      <ul id="menu">
+          <li><a href="#about-us">About us</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+      </ul>
+  </nav>
+  <section id="about-us" class="pt50">
+      <h2>About us</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis odit hic qui voluptatum eaque eveniet, repellendus, nostrum iusto vitae velit natus atque non reprehenderit laborum eius distinctio nulla asperiores, voluptatibus.</p>
+  </section>
+  
+</body>
+</html>
